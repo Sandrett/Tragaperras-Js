@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Máquina Tragaperras</title>
+    <link rel="stylesheet" href="styles/index.css">
+
+</head>
+<body>
+
+<header class="">
+    <div class="flex justify-end">
+        <div>
+            <p>Monedas Totales: <span id="contador-monedas">0</span></p>
+        </div>
+        <div class="amount ml-auto">
+            <input type="number" id="amount_input" placeholder="Introduce las monedas">
+        </div>
+        <div class="insertButton">
+            <button id="insert_button">Insertar Monedas</button>
+        </div>
+    </div>
+</header>
+
+<main class="mb-10">
+
+    <div class="flex justify-center">
+        <div class="picture m-10">
+            <img src="images/aguacate.png" alt="">
+        </div>
+        <div class="picture m-10">
+            <img src="images/ajo.png" alt="">
+        </div>
+        <div class="picture m-10">
+            <img src="images/cebolla.png" alt="">
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <button class="button m-10" id="start_button">
+            Tirar
+        </button>
+        <button class="button m-10" id="stop_button">
+            Salir
+        </button>
+    </div>
+
+</main>
+
+<footer>
+
+    <div class="history" id="history">
+        <ul>
+
+        </ul>
+    </div>
+
+</footer>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>

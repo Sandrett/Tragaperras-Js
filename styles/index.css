@@ -1,0 +1,121 @@
+
+body
+{
+    max-width: 900px;
+    border: 1px solid gray;
+    padding: 20px;
+
+    font-family: sans-serif;
+    margin: 30px auto 0;
+
+    background-color: rgba(140, 226, 238, 0.3);
+}
+
+.flex
+{
+    display: flex;
+}
+.justify-end
+{
+    justify-content: end;
+}
+.justify-center
+{
+    justify-content: center;
+}
+
+.justify-around {
+
+    justify-content: space-around;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.mb-10
+{
+    margin-bottom: 10px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.picture img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.rounded-full
+{
+    border-radius: 100%;
+}
+
+.bg-red
+{
+    background-color: red;
+}
+.bg-green
+{
+    background-color: green;
+}
+.box  {
+    width: 40px;
+    height: 40px;
+}
+
+.button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+.button {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    background: coral;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px lightgray;
+}
+
+.history {
+
+    border: 1px solid gray;
+    padding: 10px;
+
+
+}
+
+.history ul
+{
+    list-style: none;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header input
+{
+    padding: 10px;
+    margin-right: 10px;
+}
+header button {
+    padding: 10px;
+}
+
+.rotate {
+    animation: rotation 100ms infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotatex(0deg);
+    }
+    to {
+        transform: rotatex(359deg);
+    }
+}
