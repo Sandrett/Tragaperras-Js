@@ -1,4 +1,4 @@
-# Tragaperras-Js
+# Tragaperras-JS
 Máquina tragaperras utilizando JavaScript
 
 ## Posibles combinaciones
